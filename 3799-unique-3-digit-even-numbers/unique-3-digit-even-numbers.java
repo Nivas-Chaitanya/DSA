@@ -1,5 +1,5 @@
 class Solution {
-    //nivas
+
     public int totalNumbers(int[] digits) {
         int n = digits.length;
         boolean[] vis = new boolean[1000];
