@@ -3,7 +3,7 @@ class Solution {
     public int maxPalindromes(String s, int k) {
         int n = s.length();
         boolean[][] isPalindrome = new boolean[n][n];
-
+        //nivas
         for (int len = 1; len <= n; ++len) {
             for (int left = 0; left + len <= n; ++left) {
                 int right = left + len - 1;
