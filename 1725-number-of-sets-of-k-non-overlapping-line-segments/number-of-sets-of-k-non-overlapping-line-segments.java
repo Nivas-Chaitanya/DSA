@@ -10,7 +10,7 @@ class Solution {
             }
 
             base = base * base % MOD;
-
+//nivas
             exp >>= 1;
         }
 
