@@ -1,5 +1,6 @@
 class Solution {
     public int minOperations(int[] A, int x) {
+        //nivas
         int k = -x, n = A.length;
         for (int a : A) k += a;
         if (k < 0) return -1;
