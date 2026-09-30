@@ -1,6 +1,7 @@
 class Solution {
 
     public int[] maxDepthAfterSplit(String seq) {
+        //nivas
         int d = 0;
         int length = seq.length();
         int[] ans = new int[length];
