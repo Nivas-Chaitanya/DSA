@@ -1,6 +1,7 @@
 class Solution {
 
     public int sumCounts(List<Integer> nums) {
+        //Nivas
         int n = nums.size(),
             res = 0;
         for (int i = 0; i < n; i++) {
