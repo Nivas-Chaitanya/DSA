@@ -12,6 +12,7 @@ class Solution {
             }
             digitSum[i] = sum;
         }
+        //Nivas
 
         Integer[] indices = new Integer[n];
         for (int i = 0; i < n; i++) {
