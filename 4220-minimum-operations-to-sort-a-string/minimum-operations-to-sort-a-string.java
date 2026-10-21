@@ -5,6 +5,7 @@ class Solution {
         char mx = 'a',
             mn = 'z';
             //Nivas chaitanya
+            
         boolean sorted = true;
         for (int i = 0; i < n; i++) {
             mx = (char) Math.max(mx, s.charAt(i));
