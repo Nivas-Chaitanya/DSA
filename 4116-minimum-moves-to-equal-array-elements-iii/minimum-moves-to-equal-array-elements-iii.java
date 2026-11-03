@@ -5,6 +5,7 @@ class Solution {
         for (int x : nums) {
             mx = Math.max(mx, x);
         }
+        //Nivas
         int ans = 0;
         for (int x : nums) {
             ans += mx - x;
