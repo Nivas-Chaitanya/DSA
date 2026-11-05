@@ -2,6 +2,7 @@ class Solution {
 
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
         int cnt = 0;
+        //Nivas 
         for (int x : arr1) {
             boolean ok = true;
             for (int y : arr2) {
