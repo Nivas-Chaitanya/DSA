@@ -4,6 +4,7 @@ class Solution {
         Arrays.sort(logs, (a, b) -> Integer.compare(a[1], b[1]));
 
         int m = queries.length;
+        //Nivas
         Integer[] ids = new Integer[m];
         for (int i = 0; i < m; i++) ids[i] = i;
         Arrays.sort(ids, (i, j) -> Integer.compare(queries[i], queries[j]));
