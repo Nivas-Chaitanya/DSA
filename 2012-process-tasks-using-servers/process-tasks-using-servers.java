@@ -7,6 +7,7 @@ class Solution {
         Comparator<Server> order = Comparator.comparingLong(Server::at).thenComparingInt(Server::weight).thenComparingInt(Server::index);
         PriorityQueue<Server> free = new PriorityQueue<>(order), busy = new PriorityQueue<>(order);
         for (int i = 0; i < servers.length; i++) free.add(new Server(0, servers[i], i));
+        //Nivas
 
         int[] ans = new int[tasks.length];
         for (int s = 0; s < tasks.length; s++) {
