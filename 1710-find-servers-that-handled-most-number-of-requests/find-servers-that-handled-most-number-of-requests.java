@@ -7,6 +7,7 @@ class Solution {
         PriorityQueue<Job> busy = new PriorityQueue<>(Comparator.comparingInt(Job::at));
 
         int[] handled = new int[k];
+        //Nivas
         for (int i = 0; i < arrival.length; i++) {
             while (!busy.isEmpty() && busy.peek().at() <= arrival[i]) {  // done by the arrival
                 int x = busy.poll().server();
