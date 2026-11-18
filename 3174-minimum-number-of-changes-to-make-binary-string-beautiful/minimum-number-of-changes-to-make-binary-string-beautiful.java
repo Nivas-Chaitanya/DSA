@@ -3,6 +3,8 @@ class Solution {
     public int minChanges(String s) {
         
         char currentChar = s.charAt(0);
+        //Nivas
+        
 
         int consecutiveCount = 0;
         int minChangesRequired = 0;
