@@ -1,9 +1,9 @@
 class Solution {
 
     public int minimizeSum(int[] nums) {
-        //nivas
 
-        
+
+
         Arrays.sort(nums);
         int n = nums.length;
         return Math.min(
